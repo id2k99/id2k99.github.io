@@ -1,0 +1,10 @@
+.msg {
+    font-size: 24px;
+    color: gold;
+    background: brown;
+}
+
+.chatWindow {
+    width: 400px;
+    word-break: break-all;
+}
