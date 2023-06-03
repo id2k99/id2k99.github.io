@@ -6,6 +6,7 @@ function helloUser1() {
 function helloUser2() {
     let userName = document.getElementById("userName").value;
     document.getElementById("result").innerText = `Привет ${userName}`;
+    document.getElementById("userName").value = "";
 }
 
 function send() {
@@ -15,6 +16,7 @@ function send() {
     li1.className = "msg";
     document.getElementById("chatResult").prepend(li1);
     console.log(message);
+    document.getElementById("chatText").value = "";
 }
 
 helloUser1();
